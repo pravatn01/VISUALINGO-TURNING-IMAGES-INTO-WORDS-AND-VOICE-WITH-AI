@@ -1,4 +1,4 @@
-# VISUALINGO 🖼️➡️📝🔊  
+# VISUALINGO 🖼️➡️📝🔊
 **Turn images into captions—and voice—with AI.**
 
 VISUALINGO is an AI-powered image captioning system that lets users generate image descriptions and hear them spoken aloud. It compares the performance of two distinct models:
@@ -34,7 +34,7 @@ Make sure you have [Anaconda](https://www.anaconda.com/download/success) install
 
 ```bash
 conda env create -f environment.yml
-conda activate visualingo
+conda activate visualingo_venv
 ```
 
 ### Step 3: Launch the Web App
@@ -47,9 +47,14 @@ python webapp.py
 
 ## 🛠 Tech Stack
 
-- **TensorFlow** – for training and running the CNN + LSTM model  
-- **PyTorch (runtime only)** – required for the pretrained BLIP Transformer  
-- **Gradio** – web UI for image upload, caption display, and audio playback  
-- **gTTS** – converts text captions to speech  
-- **Flickr8k** – dataset used to train the baseline model  
+- **TensorFlow** – for training and running the CNN + LSTM model
+- **PyTorch (runtime only)** – required for the pretrained BLIP Transformer
+- **Gradio** – web UI for image upload, caption display, and audio playback
+- **gTTS** – converts text captions to speech
+- **Flickr8k** – dataset used to train the baseline model
 - **Matplotlib** – used for visualizing training/validation loss curves
+
+  ---
+
+## 🌐 Web App Preview
+![Web Demo](demo.png)
