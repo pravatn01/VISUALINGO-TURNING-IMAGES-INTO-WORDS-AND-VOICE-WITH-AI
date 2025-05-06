@@ -14,8 +14,8 @@ from gtts import gTTS
 import tempfile
 
 # Loading saved files
-model_path = r"/home/pravat/Downloads/ALL/Moved/Python/Visualingo/Models/model.keras"
-tokenizer_path = r"/home/pravat/Downloads/ALL/Moved/Python/Visualingo/Models/tokenizer.pkl"
+model_path = r"./Models/model.keras"
+tokenizer_path = r"./Models/tokenizer.pkl"
 img_size = 224
 max_length = 34
 
